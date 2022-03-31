@@ -1075,3 +1075,7 @@ footer .inner-content p a {
         padding-bottom: 25px;
     }
 }
+.left-column-day{
+	width: 50px;
+	display: inline-block;
+}
