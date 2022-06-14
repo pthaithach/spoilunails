@@ -1079,3 +1079,7 @@ footer .inner-content p a {
 	width: 50px;
 	display: inline-block;
 }
+/*DONT SHOw scroll bar*/
+::-webkit-scrollbar{
+	display: none;
+}

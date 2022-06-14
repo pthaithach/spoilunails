@@ -45,23 +45,23 @@
 --------------------------------------------------------------------------------------------------------------- */
 
 
-.btn, .btn.inverse:hover{color:; background-color:; border-color:;}
+.btn, .btn.inverse:hover{}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background:rgba(0,0,0,.55);}
-.imgover, .imgover:hover::after{color:0;}
+.imgover, .imgover:hover::after{}
 
 
 
 
 /* Button */
-.ringcon{color:; background-color:;}
-.ringcon::before{background-color:; border-color:rgba(255,255,255,.3);}
-.ringcon:hover{background-color:;}
-.ringcon:hover::before{background-color:}
+.ringcon{}
+.ringcon::before{ border-color:rgba(255,255,255,.3);}
+.ringcon:hover{}
+.ringcon:hover::before{}
 
 .overview a{color:inherit;}
-.overview article:hover a{color:;}
+.overview article:hover a{}
 
 
 
@@ -134,4 +134,9 @@
 
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
+}
+
+/*DONT SHOw scroll bar*/
+::-webkit-scrollbar{
+	display: none;
 }
